@@ -99,6 +99,37 @@
             transform: scale(1.08);
             transition: 0.5s;
         }
+        footer{
+            font-family: Arial;
+            display: grid;
+            grid-template-columns:6fr 6fr ;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            
+        }
+        .left-panel{
+            display: grid;
+            grid-template-columns:1.5fr 1.5fr 1.5fr 1.5fr ;
+        }
+        .right-panel{
+            border-left: dotted 1px white;
+            display: grid;
+            grid-template-columns: 2fr 3fr 1fr;
+        }
+        .social span:hover{
+ background-color: rgb(255, 255, 255);
+color: black;
+}
+.social span{
+margin-right: 5px;
+color: red;
+}
+.sticky{
+display: flex;
+justify-content: center;
+align-items: end;
+}
     </style>
 </head>
 <body class="container-fluid" onload="bodyload()">
@@ -243,6 +274,53 @@
 <div class="d-flex justify-content-center mt-1 ms-2">
     <img  src="./kfcbanner2.png" width="1300" height="200">
 </div>
+<footer class="mt-1" style="font-size:12px;">
+    <div class="left-panel">
+        <div>
+            <div class="title"><h4>About</h4></div>
+            <div>Contact Us</div>
+            <div>About Us</div>
+            <div>press</div>
+            <div>Corporate Information</div>
+        </div>
+        <div>
+            <div class="Help"><h4>Help</h4></div>
+            <div>Contact Us</div>
+            <div>About Us</div>
+            <div>Complain</div>
+        </div>
+        <div>
+            <div class="Policy"><h4>Policy</h4></div>
+            <div>Contact Us</div>
+            <div>About Us</div>
+        </div>            
+        <div>
+            <div class="Social"><h4>Social</h4></div>
+            <div>Contact Us</div>
+            <div>About Us</div>
+            <div>Careers</div>
+        </div>            
+    </div>
+    <div class="right-panel">
+        <div>
+            <div class="Mail"><h4>&nbsp;&nbsp;&nbsp;&nbsp;Mail Us</h4></div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;info@kfchickens.in</div>
+        </div>
+        <div>
+            <div class="address"><h4>Registered Office Address</h4></div>
+            <div>KFC  Pvt Ltd in Badu, Kolkata is known to satisfactorily cater to the demands of its customer base. It stands located at 312, Sree Balaji Business Park, Badu Road, Badu-700128.</div>
+        </div>
+        <div class="sticky">
+        <nav class="social">
+            <span class="bi bi-facebook"></span>
+            <span class="bi bi-twitter"></span>
+            <span class="bi bi-youtube"></span>
+            <span class="bi bi-skype"></span>
+        </nav>
+        </div>
+        
+    </div>
+</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
