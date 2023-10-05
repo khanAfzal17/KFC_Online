@@ -93,6 +93,12 @@
         document.getElementById("lblDate").innerHTML=`${weekdays[weekday]}, ${day}-${months[month]}-${year}`;
         }
     </script>
+    <style>
+        .bimg:hover{
+            transform: scale(1.05);
+            transition: 0.5s;
+        }
+    </style>
 </head>
 <body class="container-fluid" onload="bodyload()">
     <div class="mt-2 btn-toolbar bg-dark text-white justify-content-between"> 
@@ -225,13 +231,13 @@
         </div>
     </section>
     <div class="d-flex justify-content-center">
-        <img src="./kfcbrownie.png" width="200" height="150">
-        <img src="./kfcroller.jpg" width="200" height="150">
-        <img src="./kfchotwings.jpg"width="200" height="150">
-        <img src="./kfcburger.jpg" width="200" height="150">
-        <img src="./combo1.jpg" width="180" height="150">
-        <img src="./combo2.png" width="180" height="150">
-        <img src="./krusher.jpg" width="180" height="150">
+        <img class="bimg" src="./kfcbrownie.png" width="200" height="150">
+        <img class="bimg" src="./kfcroller.jpg" width="200" height="150">
+        <img class="bimg" src="./kfchotwings.jpg"width="200" height="150">
+        <img class="bimg" src="./kfcburger.jpg" width="200" height="150">
+        <img class="bimg" src="./combo1.jpg" width="180" height="150">
+        <img class="bimg" src="./combo2.png" width="180" height="150">
+        <img class="bimg" src="./krusher.jpg" width="180" height="150">
     </div>
 <div class="d-flex justify-content-center mt-1 ms-2">
     <img  src="./kfcbanner2.png" width="1300" height="200">
